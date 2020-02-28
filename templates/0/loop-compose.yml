@@ -1,0 +1,11 @@
+.catalog:
+  name: sds-mysql
+  version: latest
+  uuid: sds-mysql—0
+  questions:
+  - variable: HTTP_PORT
+    description: 'WebServer exposed port'
+    label: 'Port:'
+    required: true
+    default: 4000
+    type: int
